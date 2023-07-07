@@ -55,7 +55,8 @@ nav a {
 }
 /* header related styles */
 .header{
-    background-color: #FFF8F3;
+   
+    background: linear-gradient(45deg,#FFF8F3,#e6c6af);
 }
 .banner{
     padding: 30px 30px 30px 150px;
