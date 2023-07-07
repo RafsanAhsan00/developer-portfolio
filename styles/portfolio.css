@@ -12,7 +12,7 @@ body {
     color: #FD6E0A;
 }
 
-.button-primary {
+.button-primary{
     border-radius: 8px;
     background: #FD6E0A;
     border: 0px;
@@ -26,6 +26,7 @@ body {
 /* nav related styles */
 nav {
     display: flex;
+    margin: 0px 200px;
     justify-content: space-between;
     align-items: center;
 }
@@ -51,4 +52,17 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-img{
+    width: 500px;
+
 }
