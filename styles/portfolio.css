@@ -12,8 +12,8 @@ font-family: 'Tilt Warp', cursive;
     color: #FD6E0A;
 }
 
-.button-primary {
-    border-radius: 8px;
+.button-primary{
+    border-radius: 12px;
     background: #FD6E0A;
     border: 0px;
     color: white;
@@ -138,10 +138,57 @@ main{
 .info-description{
     color: black;
 }
+/* what i do style from here */
 #what-i-do-description{
     padding: 30px 150px;
 }
 .skill-container{
+    
     display: flex;
     justify-content:space-between;
+}
+.skill-info{
+    
+    width:267px;
+    height: 370px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    padding:30px
+}
+.skill-description{
+    padding: 0px 30px;
+    color: #757575;
+}
+#skill-img{
+    padding: 20px 0px 0px 30px;
+}
+.left-side{
+    width: 500px;
+}
+.right-side{
+    width: 500px;
+}
+.my-resume-container{
+     display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+.summay-section-title{
+    text-align: center;
+    font-size: 35px;
+}
+.resume-summary-section{
+    padding: 100px 0px;
+    
+}
+.download-cv{
+    text-align: center;
+}
+.my-resume-container>h3, p{
+    color: #757575;
+}
+.left-side .right-side, h2{
+    margin-bottom: 50px;
 }
