@@ -1,18 +1,18 @@
 /* common shared styles */
 body {
     font-family: 'Acme', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-family: 'Quantico', sans-serif;
-    font-family: 'Tilt Warp', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Tilt Warp', cursive;
 }
 
 .text-primary {
     color: #FD6E0A;
 }
 
-.button-primary{
+.button-primary {
     border-radius: 8px;
     background: #FD6E0A;
     border: 0px;
@@ -21,6 +21,19 @@ body {
     font-weight: 700;
     text-align: center;
     padding: 10px 18px;
+    
+}
+.section-title{
+color:#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.section-description{
+color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
 }
 
 /* nav related styles */
@@ -34,8 +47,9 @@ nav {
 .nav-title {
     color: #181818;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 45px;
+    font-size: 60px;
     font-weight: 800;
+    
 }
 
 nav>ul {
@@ -53,17 +67,56 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related styles */
-.header{
-   
-    background: linear-gradient(45deg,#FFF8F3,#e6c6af);
+.header {
+
+
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #FFF8F3;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .banner-img{
-    width: 500px;
+.banner-container{
+    max-width: 500px;
+    margin-left: 45px;
+    
+}
 
+.banner .banner-img {
+    width: 500px;
+    margin-right: 100px;
+}
+.banner-hi{
+    font-size: 35px;
+    font-weight: 30;    
+    color: #474747 ;
+    margin-bottom: 0px;
+    
+}
+.banner-name{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top:5px ;
+    margin-bottom: 0px;
+}
+.para{
+    margin-top:20px;
+}
+#btn-contact{
+    margin-left: 20px;
+}
+/* main section styles */
+/* about section syle */
+.about{
+    padding: 130px;
+    background-color:#FFF8F3;
+    margin: 130px 0px;
 }
